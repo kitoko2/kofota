@@ -1,0 +1,54 @@
+name: kofota
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  flutter_shaders: ^0.1.2
+
+dev_dependencies: 
+  flutter_lints: ^3.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/
+  shaders:
+    - shaders/shader_ios.glsl
+    - shaders/split_reversed_snap_effect_shader.glsl
+  fonts:
+    - family: Satoshi
+      fonts:
+        - asset: assets/fonts/Satoshi_Complete/Satoshi-Black.otf
+          weight: 900
+        - asset: assets/fonts/Satoshi_Complete/Satoshi-BlackItalic.otf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/Satoshi_Complete/Satoshi-Bold.otf
+          weight: 700
+        - asset: assets/fonts/Satoshi_Complete/Satoshi-BoldItalic.otf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Satoshi_Complete/Satoshi-Italic.otf
+          style: italic
+        - asset: assets/fonts/Satoshi_Complete/Satoshi-Light.otf
+          weight: 300
+        - asset: assets/fonts/Satoshi_Complete/Satoshi-LightItalic.otf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Satoshi_Complete/Satoshi-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Satoshi_Complete/Satoshi-MediumItalic.otf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Satoshi_Complete/Satoshi-Regular.otf
+
+
