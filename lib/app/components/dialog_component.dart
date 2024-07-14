@@ -91,8 +91,9 @@ class _CustomPopUpDialogState extends State<CustomPopUpDialog>
           const SizedBox(height: 20),
           QuoteComponent(
               color: Colors.black,
-              quote:
-                  "${widget.motivation} Rappelez-vous pourquoi vous avez commencé, les raisons profondes qui vous poussent à avancer.",
+              quote: widget.motivation.isNotEmpty
+                  ? widget.motivation
+                  : "Rappelez-vous pourquoi vous avez commencé, les raisons profondes qui vous poussent à avancer.",
               quoteFontSize: 20,
               quoteIconSize: 50),
           const SizedBox(height: 20),

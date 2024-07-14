@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_shaders/flutter_shaders.dart';
 
 import 'package:get/get.dart';
@@ -129,13 +130,16 @@ class _HomeViewState extends State<HomeView>
                               _controller.forward();
                             }
                           },
-                          icon: Icon(Icons.play_circle_filled))
+                          icon: const Icon(Icons.play_circle_filled))
                     ],
                   ),
                   body: Stack(
                     children: [
-                      Image.asset(
-                        "assets/bg.png",
+                      Opacity(
+                        opacity: .3,
+                        child: Image.asset(
+                          "assets/bg.png",
+                        ),
                       ),
                       Container(
                         padding: const EdgeInsets.all(20),
