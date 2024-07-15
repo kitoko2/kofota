@@ -14,3 +14,8 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## get GLSL Code for shader : https://www.shadertoy.com/
+## get Iso nameDrop shader : https://www.shadertoy.com/view/md3Bz2
+## package flutter for some shader implementation  :[flutter_shader_snap: ^0.0.3](https://pub.dev/packages/flutter_shader_snap)
+
